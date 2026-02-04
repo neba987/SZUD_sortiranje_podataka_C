@@ -9,6 +9,10 @@ int main() {
     printf("Unesite elemente niza:\n");
     for(i = 0; i < n; i++)
         scanf("%d", &niz[i]);
+    printf("Niz pre sortiranja: ");
+for(i = 0; i < n; i++)
+    printf("%d ", niz[i]);
+printf("\n");
 
     // Sortiranje rastuce
     for(i = 0; i < n; i++) {
