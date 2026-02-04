@@ -21,7 +21,7 @@ int main() {
         }
     }
 
-    printf("Sortirani niz: ");
+    printf("Sortirani niz (feature-output): ");
     for(i = 0; i < n; i++)
         printf("%d ", niz[i]);
     printf("\n");
