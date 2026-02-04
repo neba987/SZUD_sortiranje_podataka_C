@@ -25,7 +25,7 @@ printf("\n");
         }
     }
 
-    printf("Sortirani niz (feature-output): ");
+    printf("Sortirani niz (feature-output):Main verzija ");
     for(i = 0; i < n; i++)
         printf("%d ", niz[i]);
     printf("\n");
