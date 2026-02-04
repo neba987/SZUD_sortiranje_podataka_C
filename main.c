@@ -5,10 +5,14 @@ int main() {
     printf("Unesite broj elemenata niza: ");
     scanf("%d", &n);
 
-    int niz[n], i, j, temp;
+    int niz[n+1], i, j, temp;
     printf("Unesite elemente niza:\n");
     for(i = 0; i < n; i++)
         scanf("%d", &niz[i]);
+    printf("Niz pre sortiranja: ");
+for(i = 0; i < n; i++)
+    printf("%d ", niz[i]);
+printf("\n");
 
     // Sortiranje rastuce
     for(i = 0; i < n; i++) {
@@ -21,7 +25,7 @@ int main() {
         }
     }
 
-    printf("Sortirani niz: ");
+    printf("Sortirani niz (feature-output): ");
     for(i = 0; i < n; i++)
         printf("%d ", niz[i]);
     printf("\n");
