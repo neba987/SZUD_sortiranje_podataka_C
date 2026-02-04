@@ -14,7 +14,7 @@ int main() {
         }
     }
 
-    printf("Sortirani niz: ");
+    printf("Finalna verzija programa\n");
     for (i = 0; i < 5; i++) {
         printf("%d ", niz[i]);
     }
