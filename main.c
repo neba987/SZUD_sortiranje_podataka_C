@@ -5,7 +5,7 @@ int main() {
     printf("Unesite broj elemenata niza: ");
     scanf("%d", &n);
 
-    int niz[n], i, j, temp;
+    int niz[n+1], i, j, temp;
     printf("Unesite elemente niza:\n");
     for(i = 0; i < n; i++)
         scanf("%d", &niz[i]);
